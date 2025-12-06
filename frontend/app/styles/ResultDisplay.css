@@ -1,0 +1,53 @@
+.resultDiv {
+    background: white;
+    padding: 1.3rem;
+    border-radius: .25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #ddd;
+}
+
+.resultHeaderDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resultDiv h2 {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+}
+
+.resultClose {
+    cursor: pointer;
+}
+
+.resultContentDiv {
+    background: #f9f9f9;
+    padding: 1.2rem;
+    border-radius: .25rem;
+    border: 1px solid lightgray;
+}
+
+.resultContentDiv p {
+    margin-bottom: .75rem;
+    line-height: 1.6;
+}
+
+.stepsDiv {
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #ddd;
+}
+
+.stepsDiv h3 {
+    margin-bottom: .75rem;
+    font-size: 1rem;
+}
+
+.stepsDiv ol {
+    padding-left: 1.25rem;
+}
+
+.stepsDiv li {
+    padding: .4rem 0;
+}

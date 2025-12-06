@@ -1,0 +1,124 @@
+.historyDiv {
+    background: white;
+    padding: 1.5rem;
+    border-radius: .25rem;
+    border: 1px solid lightgray;
+}
+
+.historyHeaderDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.historyHeaderDiv h2 {
+    font-size: 1.5rem;
+}
+
+.clearButton {
+    padding: .6rem 1.5rem;
+    font-weight: 500;
+    background: #f16270;
+    color: white;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.clearButton:hover {
+    background: #f5293e;
+}
+
+.historyListDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.historyItemDiv {
+    padding: 1.4rem;
+    background: #f5f5f5;
+    border-radius: .25rem;
+    border: 1px solid lightgray;
+}
+
+.historyHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .6rem;
+}
+
+.historyTask {
+    font-weight: 600;
+    flex: 1;
+    font-size: 1rem;
+}
+
+.historyTime {
+    font-size: .8rem;
+}
+
+.historyResult {
+    margin: .75rem 0;
+    padding: .75rem;
+    background: white;
+    border-radius: .5rem;
+    font-size: 1rem;
+    border: 1px solid lightgray;
+}
+
+.historyTool {
+    display: inline-block;
+    padding: .25rem .6rem;
+    border-radius: 1.5rem;
+    font-size: .75rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    border: 1px solid #0075be;
+}
+
+.historyChevronRotated {
+    transform: rotate(180deg);
+}
+
+.historyToggleDiv {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.historyStepsDiv {
+    margin-top: .75rem;
+    padding-top: .75rem;
+    border-top: 1px solid lightgray;
+}
+
+.historyToggle {
+    background: none;
+    border: none;
+    color: #0075be;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.historyToggle:hover {
+    text-decoration: underline;
+}
+
+.historyList {
+    margin-top: .6rem;
+    padding-left: 1.1rem;
+    font-size: 1rem;
+}
+
+.historyList li {
+    padding: .25rem 0;
+}
+
+.noHistoryDiv {
+    text-align: center;
+    padding: 2.5rem;
+}
